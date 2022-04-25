@@ -1,0 +1,22 @@
+{
+  "name": "mznodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.2.9",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "supertest": "^6.2.2"
+  }
+}

@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="create-post">
+        <h4>Редактирование обучающегося</h4>
+        <form method="POST">
+            <input name="id" type="hidden" value="{{teacher.id}}" />
+            <input type="string" class="form-control" value="{{teacher.Фамилия}}" name="fam">
+            <input type="string" class="form-control" value="{{teacher.Имя}}" name="name">
+            <input type="string" class="form-control" value="{{teacher.Отчество}}" name="oth">
+            <input type="date"   class="form-control" value="{{teacher.Дата_рождения}}" name="dr">
+            <input type="double" class="form-control" value="{{teacher.Должность}}" name="dol">
+            <input type="string" class="form-control" value="{{teacher.Зарплата}}" name="zp">
+            <input type="string" class="form-control" value="{{teacher.Номер_телефона}}" name="nom">
+            <input type="string" class="form-control" value="{{teacher.Стаж}}" name="sta">
+            <input type="string" class="form-control" value="{{teacher.Адрес}}" name="adr">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-success">Изменить</button>
+                </div>
+        </form>
+    </div>
+</div>
